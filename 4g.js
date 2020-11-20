@@ -1,5 +1,5 @@
-function whatTypeOfParameter(parameter) {
+function typeOf(parameter) {
     return typeof parameter;
 }
 
-console.log(whatTypeOfParameter(7));
+console.log(typeOf(7));

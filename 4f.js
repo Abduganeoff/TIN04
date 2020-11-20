@@ -1,13 +1,12 @@
-function isNumberPrime(number) {
+function isPrime(numb) {
 
-    let twoNumber = 0;
+    let tmp = 0;
 
-    for(let x=1; x<=number; x++){
-        if(number%x === 0) twoNumber++;
+    for (let i = 1; i <= numb; i++){
+        if (numb % x === 0) tmp++;
     }
 
-    return twoNumber === 2;
+    return tmp === 2;
 
 }
 
-console.log(isNumberPrime(7));
