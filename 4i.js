@@ -1,4 +1,4 @@
-function amountToCoins(amount, arrayOfCoins)
+function amountToCoins(amount, coins)
 {
     if (amount === 0) {
         return [];
